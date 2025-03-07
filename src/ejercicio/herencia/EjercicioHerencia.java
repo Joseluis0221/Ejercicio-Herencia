@@ -15,8 +15,8 @@ public class EjercicioHerencia {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        Cuenta cuenta1 = new Cuenta (1000, 0);
+        // TODO code application logic here
+          Cuenta cuenta1 = new Cuenta(10000, 0);
         cuenta1.imprimir();
         
         cuenta1.consignar(2501);
@@ -30,7 +30,6 @@ public class EjercicioHerencia {
         cuenta1.retirar(15000);
         System.out.println("");
         cuenta1.imprimir();
-        
     }
     
 }
